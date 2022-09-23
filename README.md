@@ -10,6 +10,8 @@ Make it run with this docker backend: https://github.com/yvrjsharma/HugginFace_G
 
 Uses a docker image to remove the complexity of getting a working pytorch + OFA + stable diffusion environment working locally.
 
+When running the docker, s/he should provide [the Hugging Face access token](https://huggingface.co/docs/hub/security-tokens) to download the pre-trained stable diffusion and run the app.
+
 * build the docker image
 `docker build --tag fsdl-sdprj .`
 
