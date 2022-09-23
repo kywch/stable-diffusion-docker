@@ -1,0 +1,9 @@
+# https://stackoverflow.com/questions/55313610/importerror-libgl-so-1-cannot-open-shared-object-file-no-such-file-or-directo
+opencv-python-headless
+fairseq==0.12.2
+transformers
+diffusers
+flask
+waitress
+flask_cors
+jsonify
