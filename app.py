@@ -50,7 +50,7 @@ def magic():
             # optional parameters
             strength = float(input_json.get("strength")) if input_json.get("strength") else 0.75
             guidance_scale = float(input_json.get("guidance_scale")) if input_json.get("guidance_scale") else 7.5
-            random_seed = float(input_json.get("random_seed")) if input_json.get("random_seed") else 0
+            random_seed = int(input_json.get("random_seed")) if input_json.get("random_seed") else 0
             num_samples = int(input_json.get("num_samples")) if input_json.get("num_samples") else 1
             n_iter = int(input_json.get("n_iter")) if input_json.get("n_iter") else 1
             
