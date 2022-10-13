@@ -23,9 +23,9 @@ When running the docker, s/he should provide [the Hugging Face access token](htt
 
 
 ## To-dos
-- [ ] Run the docker in the lambda cluster
-- [ ] Expose the API via ngrok and using --oauth-allow-email. See https://blog.ngrok.com/posts/how-to-secure-your-network-tunnels-with-oauth-fast  
-- [ ] Create a colab notebook that runs on the API
+- [V] Run the docker in the lambda cluster
+- [V] Expose the API via ngrok (refer https://blog.ngrok.com/posts/how-to-secure-your-network-tunnels-with-oauth-fast)
+- [V] Create [a colab notebook that runs on the API](https://colab.research.google.com/github/kywch/stable-diffusion-docker/blob/main/inpaint_colab_with_api.ipynb)
 
 
 ## references
